@@ -9,7 +9,7 @@ namespace BankingModel
     {
         private string _name;
 
-        public string getName()
+       /* public string getName()
         {
             return _name;
         }
@@ -17,6 +17,20 @@ namespace BankingModel
         {
             _name = name;
         }
+
+        public string  Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+        */
+        public string Name { get; set; }
             
     }
 }
